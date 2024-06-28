@@ -34,3 +34,7 @@ SELECT * FROM departamento WHERE id = 2;
 SELECT * FROM departamento WHERE salario < 2000.00;
 
 SELECT * FROM departamento WHERE salario > 4000.00;
+
+UPDATE departamento SET salario = 2800.00 WHERE id = 2;
+
+SELECT * FROM departamento WHERE id = 2;
